@@ -1,13 +1,13 @@
 # SPDX-License-Identifier: MIT
 
 import argparse
+import os
+import shutil
 from manager import Manager
 
 
 def setup_hooks():
     """Setup git hooks for conventional commits."""
-    import shutil
-    import os
 
     hooks_dir = ".git/hooks"
     if not os.path.exists(hooks_dir):
