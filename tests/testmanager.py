@@ -71,7 +71,6 @@ def test_cli_output():
         ],
         capture_output=True,
         text=True,
-        cwd="/Users/niladri/Desktop/untitled folder",
     )
     assert result.returncode == 0
     output = result.stdout.strip()
@@ -90,6 +89,5 @@ def test_cli_missing_message():
         ],
         capture_output=True,
         text=True,
-        cwd="/Users/niladri/Desktop/untitled folder",
     )
     assert result.returncode != 0  # Should fail due to missing --message
