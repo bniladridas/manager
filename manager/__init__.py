@@ -1,7 +1,6 @@
 # SPDX-License-Identifier: MIT
 
 import os
-from jinja2 import Environment, FileSystemLoader
 
 from ._version import __version__
 
@@ -10,6 +9,8 @@ __all__ = ["Manager", "__version__"]
 
 class Manager:
     def __init__(self):
+        from jinja2 import Environment, FileSystemLoader
+
         template_dir = os.path.join(os.path.dirname(__file__), "templates")
         self.env = Environment(loader=FileSystemLoader(template_dir))
 
