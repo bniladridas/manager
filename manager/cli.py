@@ -63,13 +63,12 @@ def main():
         for msg in args.message:
             messages.append({"role": "user", "content": msg})
         tools = [{"type": t, "name": t} for t in args.tools]
-        kwargs = {}
-        if args.temperature is not None:
-            kwargs["temperature"] = args.temperature
-        if args.max_tokens is not None:
-            kwargs["max_tokens"] = args.max_tokens
-        if args.stream:
-            kwargs["stream"] = args.stream
+        kwargs = {
+            "temperature": args.temperature,
+            "max_tokens": args.max_tokens,
+            "stream": args.stream,
+        }
+        kwargs = {k: v for k, v in kwargs.items() if v}
         payload = m.render_chat_with_tools(
             args.model, messages, tools, template_name=args.template, **kwargs
         )
