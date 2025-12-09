@@ -1,6 +1,6 @@
 ## 📄 Contributor License Agreement (CLA)
 
-Thank you for your contribution!  
+Thank you for your contribution!
 Before we can merge your PR, you need to sign the CLA.
 
 ### 👉 To sign the CLA, comment:
@@ -17,5 +17,5 @@ recheck
 
 Once signed, the bot will verify and update the signature records.
 
-Thank you for helping maintain a healthy, open-source project!  
+Thank you for helping maintain a healthy, open-source project!
 — CLA Bot
