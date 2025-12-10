@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.3.0](https://github.com/bniladridas/manager/compare/manager-v0.2.0...manager-v0.3.0) (2025-12-10)
+
+
+### Features
+
+* cla system and signatures ([#11](https://github.com/bniladridas/manager/issues/11)) ([0ab89a1](https://github.com/bniladridas/manager/commit/0ab89a1d88fd502791c74122acab011757ac78eb))
+
+
+### Bug Fixes
+
+* add sha to checks action ([e7b6c14](https://github.com/bniladridas/manager/commit/e7b6c14edb1679a547ab993a9fc6a07b916e0746))
+* **cla:** add checks write permission for status updates ([47ebd1c](https://github.com/bniladridas/manager/commit/47ebd1c99ba60d4e20df9d32e86a6a5e6d825918))
+* correct yaml indentation ([54fb953](https://github.com/bniladridas/manager/commit/54fb953988b90d2bcfbad2d9dfd1e7ba51a51b19))
+* init cla.json as object ([b85d90b](https://github.com/bniladridas/manager/commit/b85d90b2c7f0efd6062b08028cad41320ec4d62e))
+* store cla signatures locally ([6e12e97](https://github.com/bniladridas/manager/commit/6e12e974662713eb610d2a25c68955e3b328cbed))
+
+
+### Chores
+
+* update release-please action ([bfca2e3](https://github.com/bniladridas/manager/commit/bfca2e36cf4aa360674ed8bb44d5d5ea1118c1df))
+
 ## [0.2.0](https://github.com/bniladridas/manager/compare/manager-v0.1.0...manager-v0.2.0) (2025-12-09)
 
 
