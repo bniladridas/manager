@@ -47,7 +47,7 @@ jobs:
           branch: cla-signatures
           path-to-signatures: "signatures/cla.json"
           use-dco-flag: false
-
+          allowlist: ""
           lock-pullrequest-aftermerge: true
 
       - name: Split signatures into per-user files
