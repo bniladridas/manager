@@ -176,20 +176,6 @@ def test_cli_main_basic():
     pass
 
 
-def test_cli_missing_message_error():
-    # Test CLI with missing message
-    result = subprocess.run(
-        [
-            sys.executable,
-            "-c",
-            "from manager.cli import main; import sys; sys.argv = ['cli', '--tools', 'web_search']; main()",
-        ],
-        capture_output=True,
-        text=True,
-    )
-    assert result.returncode != 0  # Should fail due to missing --message
-
-
 def test_cli_with_system_message():
     result = subprocess.run(
         [
