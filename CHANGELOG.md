@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.4.0](https://github.com/bniladridas/manager/compare/manager-v0.3.1...manager-v0.4.0) (2025-12-21)
+
+
+### Features
+
+* restore CLA bot for PR locking ([#19](https://github.com/bniladridas/manager/issues/19)) ([d61af3a](https://github.com/bniladridas/manager/commit/d61af3a0d5cf9398f0c9c4d961ceb2d212127b1a))
+
+
+### Bug Fixes
+
+* correct cla action version ([1b0f434](https://github.com/bniladridas/manager/commit/1b0f43437f24476df37276f8b91d37d613e0316d))
+
 ## [0.3.1](https://github.com/bniladridas/manager/compare/manager-v0.3.0...manager-v0.3.1) (2025-12-21)
 
 
